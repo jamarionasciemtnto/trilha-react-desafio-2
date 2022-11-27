@@ -27,16 +27,17 @@ function App() {
         setCurrentRepo('')
         return
       }
-
+      alert('Repositório já foi incluído')
+      return
     }
-    alert('Repositório não encontrado')
-
+   
   }
 
   const handleRemoveRepo = (id) => {
     console.log('Removendo registro', id);
-
     // utilizar filter.
+    setRepos(prev => prev.filter(prev => prev.id !== id));
+    setCurrentRepo('')
   }
 
 

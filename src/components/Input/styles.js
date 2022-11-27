@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const InputContainer = styled.div`
 
-    border: 1px solid #FAFAFA;
-    border-radius: 20px;
-
+    border: 1px solid #E53854;
+    border-radius: 50px;
+    color:#FFF;
     height: 62px;
     width: 80%;
-
     margin: 20px;
     
 
